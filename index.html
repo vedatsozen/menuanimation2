@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YÖRÜNGE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="cember">
+        <img id="settings" class="icon" src="settings.png">
+        <img id="audio" class="icon" src="audio.png">
+        <img id="click" class="icon" src="click.png">
+        <img id="money" class="icon" src="money.png">
+        <img id="video" class="icon" src="video.png">
+    </div>
+
+
+<script>
+
+$(document).ready(function() {
+
+$("#click").click(function() {
+
+$("#settings").toggleClass("newposition1");
+$("#audio").toggleClass("newposition2");
+$("#money").toggleClass("newposition3");
+$("#video").toggleClass("newposition4");
+})
+
+});
+
+
+</script>
+</body>
+</html>

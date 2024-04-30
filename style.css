@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+}
+
+#cember {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon {
+    position: absolute;
+    height:40px;
+    width:40px;
+    transition: 400ms ease;
+    cursor: pointer;
+}
+
+
+.newposition1 {
+    transform: translateY(-100px);
+    transition: 400ms ease;
+}
+
+.newposition2 {
+    transform: translateY(100px);
+    transition: 400ms ease;
+}
+
+.newposition3 {
+    transform: translateX(-100px);
+    transition: 400ms ease;
+}
+
+.newposition4 {
+    transform: translateX(100px);
+    transition: 400ms ease;
+}
+
+img#click {
+    height: 50px !important;
+    width: 50px !important;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+img#click:active {
+    transform: scale(0.9);
+}
+
